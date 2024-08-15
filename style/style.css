@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+}
+/* Navbar starts here */
+
+.max-width-website{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.logo-flex{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.logo-flex h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgba(11, 2, 35, 1);   
+}
+.logo-flex h1 span{
+    color: rgba(255, 66, 165, 1);   
+}
+.nav-elements{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nav-elements a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: rgba(60, 53, 79, 1);
+    margin-left: 20px;
+    
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: rgba(60, 53, 79, 1);
+    background-color: rgba(11, 2, 35, 0.1);
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+.nav-icon h3{
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.nav-icon i{
+    font-size: 1.6rem;
+}
+.nav-bar-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+/* Navbar ends here */
+
+
+/* Play Like The GOAT starts here */
+
+.GOAT-section-bg{
+    background-image: url("../resources/Group\ 14.png");
+    background-position:-50%;
+    background-repeat: no-repeat;
+}
+.GOAT-banner-text{
+    width: 35%;
+
+}
+.GOAT-banner-text h2{
+    font-size: 3rem;
+    font-weight: 600;
+    color: rgba(11, 2, 35, 1);
+
+}
+.GOAT-banner-text h1{
+    font-size: 6rem;
+    background-image:linear-gradient(rgba(249, 72, 178, 1), rgba(135, 88, 241, 1));
+    font-weight: 800;
+    background-clip: text;
+    color: transparent;
+}
+.GOAT-banner-img img{
+    width: 100%;
+}
+.GOAT-banner-img{
+    width: 45%;
+}
+.GOAT-banner-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.IconText-flex{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+.IconText-flex i{
+    color: rgba(255, 66, 165, 1);
+    font-size: 1.6rem;
+}
+.IconText-flex h5{
+    color: rgba(83, 76, 100, 1);
+    font-size: 1.2rem;
+    font-weight: 500;
+    
+}
+.buttons{
+    margin-top: 21px;
+}
+.button-one{
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(255, 66, 165, 1);
+}
+.button-two{
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgba(78, 197, 247, 1);
+    margin-left: 10px;
+}
+
+/* Play Like The GOAT ends here */
+
+/* We are gamer starts here */
+.gamer-bg{
+    background-color: #FFF5FC;
+}
+.gamer-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.gamer-pic img{
+    width: 100%;
+}
+.gamer-pic {
+    width: 60%;
+}
+.gamer-text{
+    width: 35%;
+    text-align: right;
+}
+.gamer-text h1{
+    font-size: 3rem;
+    font-weight: 800;
+    background-image: linear-gradient(rgba(249, 72, 178, 1), rgba(135, 88, 241, 1));
+    background-clip: text;
+    color: transparent;
+}
+.gamer-text p{
+    font-size: 1.1rem;
+    font-weight: 400;
+    color: rgba(83, 76, 100, 1);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.gamer-text h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgba(83, 76, 100, 1);
+    margin-top: 15px;
+}
+.gamer-text h5{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: rgba(83, 76, 100, 1);
+    margin-top: 15px;
+}
+
+/* We are gamer ends here */
